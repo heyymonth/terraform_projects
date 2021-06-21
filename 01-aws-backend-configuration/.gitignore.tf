@@ -1,17 +1,20 @@
+# Created by https://www.toptal.com/developers/gitignore/api/terraform
+# Edit at https://www.toptal.com/developers/gitignore?templates=terraform
+
+### Terraform ###
 # Local .terraform directories
-*.terraform*
+**/.terraform/*
 
 # .tfstate files
 *.tfstate
 *.tfstate.*
-*.vscode*
-*.DS_Store*
+
 # Crash log files
 crash.log
 
 # Exclude all .tfvars files, which are likely to contain sentitive data, such as
-# password, private keys, and other secrets. These should not be part of version 
-# control as they are data points which are potentially sensitive and subject 
+# password, private keys, and other secrets. These should not be part of version
+# control as they are data points which are potentially sensitive and subject
 # to change depending on the environment.
 #
 *.tfvars
@@ -24,7 +27,6 @@ override.tf.json
 *_override.tf.json
 
 # Include override files you do wish to add to version control using negated pattern
-#
 # !example_override.tf
 
 # Include tfplan files to ignore the plan output of command: terraform plan -out=tfplan
@@ -33,3 +35,5 @@ override.tf.json
 # Ignore CLI configuration files
 .terraformrc
 terraform.rc
+
+# End of https://www.toptal.com/developers/gitignore/api/terraform
